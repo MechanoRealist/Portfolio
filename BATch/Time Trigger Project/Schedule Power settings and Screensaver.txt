@@ -1,0 +1,42 @@
+Set powerplan screentimeout (in powersettings) from commandline:
+https://technet.microsoft.com/en-us/library/cc748940(v=ws.10).aspx
+
+A value of zero sets the time to "Never".
+
+powercfg /x monitor-timeout-ac 0
+powercfg /x monitor-timeout-ac 3
+
+--------------------------------------------------------------------------------------------------
+Set screensaver from commandline:
+
+Use this registry value to turn on and off:
+reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /f /v ScreenSaveActive /t REG_SZ /d 0
+and
+reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /f /v ScreenSaveActive /t REG_SZ /d 1
+
+https://www.windows-commandline.com/configure-screensaver-command-line/
+
+We can configure screensaver settings through display settings. Screensaver can be configured from windows command line as well.
+
+To set the screensaver to ‘None‘ from command line:
+
+reg delete "HKEY_CURRENT_USER\Control Panel\Desktop" /v SCRNSAVE.EXE /f
+To set the screensaver to ‘Blank‘ from command line:
+
+reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v SCRNSAVE.EXE /t REG_SZ /d C:\Windows\system32\scrnsave.scr /f
+You can get the list of screen saver options you have :
+
+dir c:\windows\system32\*scr /b
+On my windows 7 system it shows the following screensavers
+
+C:\Users\administrator>dir c:\windows\system32\*scr /b
+Bubbles.scr
+Mystify.scr
+PhotoScreensaver.scr
+Ribbons.scr
+scrnsave.scr
+ssText3d.scr
+C:\Users\administrator>
+To set Bubbles as the screensaver you need to run the following command from command line.
+
+reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v SCRNSAVE.EXE /t REG_SZ /d C:\Windows\system32\Bubbles.scr /f

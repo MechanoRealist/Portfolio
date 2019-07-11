@@ -1,0 +1,7 @@
+<cc_config>
+   <log_flags>
+   </log_flags>
+   <options>
+       <start_delay>30</start_delay>
+   </options>
+</cc_config>

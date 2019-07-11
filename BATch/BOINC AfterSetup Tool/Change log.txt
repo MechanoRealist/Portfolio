@@ -1,0 +1,6 @@
+v1.0	Initial program
+v1.1	Added BOINC and eFMer websites and interface
+v1.2	Added BOINC Manager attachment option.
+v1.3	Changed the name, streamlined the code, added config file, added blink for error,
+		added Remote-Password addition capability and added cc_config.xml install capability
+v1.4	?

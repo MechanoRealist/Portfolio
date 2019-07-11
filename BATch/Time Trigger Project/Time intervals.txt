@@ -1,0 +1,9 @@
+Screen Off - No Screensaver
+	22:00 
+		Cron time code:
+		* * * * *
+
+Screen On - Screensaver
+	9:45
+		Cron time code:
+		

@@ -1,0 +1,10 @@
+C:\Users\TV-PC\OneDrive\02-Dev\CSharp\ArrowKey_Arrows_Test\ArrowKey_Arrows_Test\bin\Debug\WindowsFormsTestApp1.exe.config
+C:\Users\TV-PC\OneDrive\02-Dev\CSharp\ArrowKey_Arrows_Test\ArrowKey_Arrows_Test\bin\Debug\WindowsFormsTestApp1.exe
+C:\Users\TV-PC\OneDrive\02-Dev\CSharp\ArrowKey_Arrows_Test\ArrowKey_Arrows_Test\bin\Debug\WindowsFormsTestApp1.pdb
+C:\Users\TV-PC\OneDrive\02-Dev\CSharp\ArrowKey_Arrows_Test\ArrowKey_Arrows_Test\obj\Debug\ArrowKey_Arrows_Test.csprojAssemblyReference.cache
+C:\Users\TV-PC\OneDrive\02-Dev\CSharp\ArrowKey_Arrows_Test\ArrowKey_Arrows_Test\obj\Debug\ArrowKey_Arrows_Test.Form1.resources
+C:\Users\TV-PC\OneDrive\02-Dev\CSharp\ArrowKey_Arrows_Test\ArrowKey_Arrows_Test\obj\Debug\WindowsFormsTestApp1.Properties.Resources.resources
+C:\Users\TV-PC\OneDrive\02-Dev\CSharp\ArrowKey_Arrows_Test\ArrowKey_Arrows_Test\obj\Debug\ArrowKey_Arrows_Test.csproj.GenerateResource.cache
+C:\Users\TV-PC\OneDrive\02-Dev\CSharp\ArrowKey_Arrows_Test\ArrowKey_Arrows_Test\obj\Debug\ArrowKey_Arrows_Test.csproj.CoreCompileInputs.cache
+C:\Users\TV-PC\OneDrive\02-Dev\CSharp\ArrowKey_Arrows_Test\ArrowKey_Arrows_Test\obj\Debug\WindowsFormsTestApp1.exe
+C:\Users\TV-PC\OneDrive\02-Dev\CSharp\ArrowKey_Arrows_Test\ArrowKey_Arrows_Test\obj\Debug\WindowsFormsTestApp1.pdb

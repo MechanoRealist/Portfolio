@@ -1,0 +1,26 @@
+Use a config file
+	Autogenerate a generic config file if missing --Complete
+	Let the program detect unused config settings --Complete
+	Any line with http in it will be treated as a project --Not wise. Would destroy the config format.
+
+Use registry to get the install and data directories of BOINC --Complete
+
+Use the registry data to add remote control password files and
+optional XML config files to the BOINC data directory. --Complete
+
+
+
+
+
+
+
+Check for running boinc client which is required for boinccmd to work.
+
+
+Finish the lookup component
+	Upgrade the config reader.
+
+
+
+Have it look for already added projects and skip them.
+	Make it able to remove all attached projects.
