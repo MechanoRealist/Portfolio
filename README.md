@@ -5,12 +5,12 @@
 	
 	
 	
-- **Mappen Skole Projekter**
+- **Mappen [Skole Projekter](\Skole Projekter)**
 
 	Arbejde udført i skolen.
 
 	
 	
-- **Mappen Praktikcenter**
+- **Mappen [Praktikcenter](\Praktikcenter)**
 
 	Helstøbte opgaver udført i Praktikcenteret
