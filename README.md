@@ -5,13 +5,13 @@
 	
 	
 	
-- **Mappen [Skole Projekter](Portfolio/tree/master/Skole%20Projekter)**
+- **Mappen [Skole Projekter](Skole%20Projekter)**
 
 	Arbejde udført i skolen.
 
 	
 	
-- **Mappen [Praktikcenter](Portfolio/tree/master/Praktikcenter)**
+- **Mappen [Praktikcenter](Praktikcenter)**
 
 	Helstøbte opgaver udført i Praktikcenteret
 
