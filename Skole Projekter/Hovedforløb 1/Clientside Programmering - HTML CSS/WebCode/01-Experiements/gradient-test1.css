@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+@keyframes anim{
+    0%      { transform: rotate3d(0); }
+    25%     { transform: rotate3d(1, 0, 1, 260deg); }
+    50%     { transform: rotate3d(0,1,0, 180deg); }
+    100%    { transform: rotate3d(0); }
+}
+div#ripple{
+    background-image: repeating-radial-gradient(red, green 10%);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    animation-name: anim;
+    animation-duration: 7s;
+}

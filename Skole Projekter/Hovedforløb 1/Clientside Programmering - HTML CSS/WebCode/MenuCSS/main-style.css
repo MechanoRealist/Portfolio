@@ -1,0 +1,70 @@
+header{
+    overflow: auto;
+}
+header nav.vandret {
+    float: right;
+}
+header nav.lodret {
+    float: left;
+}
+header nav ul {
+    font-family: Arial, Verdana; font-size: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid white;
+    padding: 5px 15px;
+    background: #2C5563;
+    margin-left: 1px;
+    white-space: nowrap;
+    line-height: 20px;
+}
+header nav ul li a:hover {
+    background: #617F8A;
+}
+
+header nav ul li {
+    position: relative;
+    min-width: 90px;
+    width: auto;
+    
+}
+header nav.vandret ul li {
+    float: left;
+}
+header nav li ul {
+    position: absolute;
+    width: inherit;
+    display: none;
+}
+header nav li:hover > ul {
+    display: block;
+}
+header nav li:hover > ul.flyright {
+    left: 100%;
+}
+header nav li:hover > ul.flyleft {
+    right: 100%;
+    /* width: auto; */
+}
+
+
+
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:800px;
+    width:900px;
+}
+.gmap_canvas{
+    overflow:hidden;
+    background:none!important;
+    height:800px;
+    width:900px;
+}

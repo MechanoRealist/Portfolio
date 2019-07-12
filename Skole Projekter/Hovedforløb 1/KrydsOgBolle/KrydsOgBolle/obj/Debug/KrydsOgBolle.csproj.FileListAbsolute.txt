@@ -1,0 +1,7 @@
+C:\Users\tec\OneDrive - TEC\H1\Grndlg. Prog\KrydsOgBolle\KrydsOgBolle\bin\Debug\KrydsOgBolle.exe.config
+C:\Users\tec\OneDrive - TEC\H1\Grndlg. Prog\KrydsOgBolle\KrydsOgBolle\bin\Debug\KrydsOgBolle.exe
+C:\Users\tec\OneDrive - TEC\H1\Grndlg. Prog\KrydsOgBolle\KrydsOgBolle\bin\Debug\KrydsOgBolle.pdb
+C:\Users\tec\OneDrive - TEC\H1\Grndlg. Prog\KrydsOgBolle\KrydsOgBolle\obj\Debug\KrydsOgBolle.csprojAssemblyReference.cache
+C:\Users\tec\OneDrive - TEC\H1\Grndlg. Prog\KrydsOgBolle\KrydsOgBolle\obj\Debug\KrydsOgBolle.csproj.CoreCompileInputs.cache
+C:\Users\tec\OneDrive - TEC\H1\Grndlg. Prog\KrydsOgBolle\KrydsOgBolle\obj\Debug\KrydsOgBolle.exe
+C:\Users\tec\OneDrive - TEC\H1\Grndlg. Prog\KrydsOgBolle\KrydsOgBolle\obj\Debug\KrydsOgBolle.pdb

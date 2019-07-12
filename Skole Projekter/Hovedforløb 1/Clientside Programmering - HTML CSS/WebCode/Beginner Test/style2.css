@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div#banner{
+    background-color: cyan;
+    height: 15vh;
+    padding: 2%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-width: 1vh 1vw 0 1vw;
+}
+div#banner a{
+    padding: 0 1% 0 0;
+    color: darkred;
+}
+div#wrapper{
+    height: 85vh;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-width: 1vh 1vw;
+}
+div#menuleft{
+    box-sizing: border-box;
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: yellow;
+    border-right: 1vw solid cornflowerblue;
+}
+div#menuleft a{
+    display: block;
+    background-color: green;
+    margin: 1em 0;
+    padding: 1em;
+    height: 80px;
+}
+div#content{
+    box-sizing: border-box;
+    background-color: darkred;
+    padding: 3%;
+    float: left;
+    width: 80%;
+    height: 100%;
+}
+ul{
+    list-style: none;
+}

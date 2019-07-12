@@ -1,0 +1,19 @@
+c:\users\rasm704g\documents\visual studio 2017\Projects\project opgave 2018-19\project opgave 2018-19\bin\Debug\project opgave 2018-19.exe.config
+c:\users\rasm704g\documents\visual studio 2017\Projects\project opgave 2018-19\project opgave 2018-19\bin\Debug\project opgave 2018-19.exe
+c:\users\rasm704g\documents\visual studio 2017\Projects\project opgave 2018-19\project opgave 2018-19\bin\Debug\project opgave 2018-19.pdb
+c:\users\rasm704g\documents\visual studio 2017\Projects\project opgave 2018-19\project opgave 2018-19\obj\Debug\project opgave 2018-19.csprojResolveAssemblyReference.cache
+c:\users\rasm704g\documents\visual studio 2017\Projects\project opgave 2018-19\project opgave 2018-19\obj\Debug\project opgave 2018-19.exe
+c:\users\rasm704g\documents\visual studio 2017\Projects\project opgave 2018-19\project opgave 2018-19\obj\Debug\project opgave 2018-19.pdb
+C:\Users\filur\Desktop\project opgave 2018-19\project opgave 2018-19\bin\Debug\project opgave 2018-19.exe.config
+C:\Users\filur\Desktop\project opgave 2018-19\project opgave 2018-19\bin\Debug\project opgave 2018-19.exe
+C:\Users\filur\Desktop\project opgave 2018-19\project opgave 2018-19\bin\Debug\project opgave 2018-19.pdb
+C:\Users\filur\Desktop\project opgave 2018-19\project opgave 2018-19\obj\Debug\project opgave 2018-19.csprojAssemblyReference.cache
+C:\Users\filur\Desktop\project opgave 2018-19\project opgave 2018-19\obj\Debug\project opgave 2018-19.csproj.CoreCompileInputs.cache
+C:\Users\filur\Desktop\project opgave 2018-19\project opgave 2018-19\obj\Debug\project opgave 2018-19.exe
+C:\Users\filur\Desktop\project opgave 2018-19\project opgave 2018-19\obj\Debug\project opgave 2018-19.pdb
+C:\Users\rasm704g\Desktop\project opgave 2018-19\project opgave 2018-19\bin\Debug\project opgave 2018-19.exe.config
+C:\Users\rasm704g\Desktop\project opgave 2018-19\project opgave 2018-19\bin\Debug\project opgave 2018-19.exe
+C:\Users\rasm704g\Desktop\project opgave 2018-19\project opgave 2018-19\bin\Debug\project opgave 2018-19.pdb
+C:\Users\rasm704g\Desktop\project opgave 2018-19\project opgave 2018-19\obj\Debug\project opgave 2018-19.csprojResolveAssemblyReference.cache
+C:\Users\rasm704g\Desktop\project opgave 2018-19\project opgave 2018-19\obj\Debug\project opgave 2018-19.exe
+C:\Users\rasm704g\Desktop\project opgave 2018-19\project opgave 2018-19\obj\Debug\project opgave 2018-19.pdb

@@ -1,0 +1,1 @@
+Kopier DataBase.txt til brugslokationen før du starter programmet

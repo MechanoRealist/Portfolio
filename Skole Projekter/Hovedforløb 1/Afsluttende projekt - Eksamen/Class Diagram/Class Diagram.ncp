@@ -1,0 +1,407 @@
+<Project>
+  <Name>Case 1</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Autorepairshop Case</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Interface">
+        <Name>IDatabaseObject</Name>
+        <Access>Internal</Access>
+        <Location left="60" top="661" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">Int32 Create()</Member>
+        <Member type="Method">Int32 Update()</Member>
+        <Member type="Method">Int32 Delete()</Member>
+      </Entity>
+      <Entity type="Class">
+        <Name>Car</Name>
+        <Access>Internal</Access>
+        <Location left="957" top="359" />
+        <Size width="276" height="349" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public String Numberplate { get; set; }</Member>
+        <Member type="Property">public String Brand { get; set; }</Member>
+        <Member type="Property">public String Model { get; set; }</Member>
+        <Member type="Property">public String SerialNr { get; set; }</Member>
+        <Member type="Property">public Int32 CustomerID { get; set; }</Member>
+        <Member type="Constructor">public Car()</Member>
+        <Member type="Method">public static Void Menu()</Member>
+        <Member type="Method">public static Void Deletor()</Member>
+        <Member type="Method">public static Void Creator()</Member>
+        <Member type="Method">public static Void Reader()</Member>
+        <Member type="Method">public static String[] ExtractUnique(List&lt;Car&gt; list)</Member>
+        <Member type="Method">public Int32 Create()</Member>
+        <Member type="Method">public Int32 Update()</Member>
+        <Member type="Method">public Int32 Delete()</Member>
+        <Member type="Method">public static List&lt;Car&gt; GetList()</Member>
+        <Member type="Method">public static Void PrintList(List&lt;Car&gt; list)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ConsoleHelper</Name>
+        <Access>Public</Access>
+        <Location left="509" top="20" />
+        <Size width="509" height="192" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public static Int32 Menu(Boolean canCancel, Int32 prline, Int32 y, Int32 x, params String[] options)</Member>
+        <Member type="Method">public static Void DrawVertical(Int32 topNode, Int32 bottomNode, Int32 horizontal, Char symbol)</Member>
+        <Member type="Method">public static Void DrawHorizontal(Int32 leftNode, Int32 rightNode, Int32 vertical, Char symbol)</Member>
+        <Member type="Method">public static Void DrawSingle(Int32 left, Int32 top, Char symbol)</Member>
+        <Member type="Method">public static Void PrintLines(Int32 left, Int32 top, Int32 spacing, params String[] lines)</Member>
+        <Member type="Method">public static Void ClearBox(Int32 left, Int32 top, Int32 width, Int32 lines)</Member>
+        <Modifier>Static</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Customer</Name>
+        <Access>Internal</Access>
+        <Location left="633" top="359" />
+        <Size width="302" height="383" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public Int32 CustomerID { get; private set; }</Member>
+        <Member type="Property">public String Firstname { get; set; }</Member>
+        <Member type="Property">public String Lastname { get; set; }</Member>
+        <Member type="Property">public String HomeAddress { get; set; }</Member>
+        <Member type="Property">public Int32 TelephoneNr { get; set; }</Member>
+        <Member type="Property">public DateTime CreationDate { get; set; }</Member>
+        <Member type="Constructor">public Customer()</Member>
+        <Member type="Method">public static Void Menu()</Member>
+        <Member type="Method">public static Void Deletor()</Member>
+        <Member type="Method">public static Void Creator()</Member>
+        <Member type="Method">public static Void ReaderSorted()</Member>
+        <Member type="Method">public static Void Reader()</Member>
+        <Member type="Method">public static String[] ExtractUnique(List&lt;Customer&gt; list)</Member>
+        <Member type="Method">public Int32 Create()</Member>
+        <Member type="Method">public Int32 Update()</Member>
+        <Member type="Method">public Int32 Delete()</Member>
+        <Member type="Method">public static List&lt;Customer&gt; GetList()</Member>
+        <Member type="Method">public static Void PrintList(List&lt;Customer&gt; list)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>MenuBox</Name>
+        <Access>Internal</Access>
+        <Location left="60" top="392" />
+        <Size width="265" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public Int32 LeftBoundary { get; set; }</Member>
+        <Member type="Property">public Int32 RightBoundary { get; set; }</Member>
+        <Member type="Property">public Int32 TopBoundary { get; set; }</Member>
+        <Member type="Property">public Int32 BottomBoundary { get; set; }</Member>
+        <Member type="Property">public Int32 Width { get; }</Member>
+        <Member type="Property">public Int32 Height { get; }</Member>
+        <Member type="Constructor">public MenuBox()</Member>
+        <Member type="Method">public Void Clear()</Member>
+        <Member type="Method">public Void PrintContent(String[] content)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Program</Name>
+        <Access>Internal</Access>
+        <Location left="60" top="20" />
+        <Size width="302" height="264" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public static Int32 HalfWindowWidth { get; }</Member>
+        <Member type="Property">public static Int32 TwoThirdsWindowHieght { get; }</Member>
+        <Member type="Property">public static MenuBox MenuLeft { get; set; }</Member>
+        <Member type="Property">public static MenuBox MenuRight { get; set; }</Member>
+        <Member type="Property">public static MenuBox MenuBottom { get; set; }</Member>
+        <Member type="Property">public static List&lt;Customer&gt; Customers { get; set; }</Member>
+        <Member type="Property">public static List&lt;Car&gt; Cars { get; set; }</Member>
+        <Member type="Property">public static List&lt;CarServicing&gt; CarServicings { get; set; }</Member>
+        <Member type="Constructor">public Program()</Member>
+        <Member type="Method">public static Void Main()</Member>
+        <Member type="Method">public static Void DrawFrame()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SQL</Name>
+        <Access>Internal</Access>
+        <Location left="1310" top="20" />
+        <Size width="315" height="177" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">public static SqlConnection sqlConnection</Member>
+        <Member type="Constructor">public SQL()</Member>
+        <Member type="Constructor">static SQL()</Member>
+        <Member type="Method">public static DataTable GetTable(String querySelect)</Member>
+        <Member type="Method">public static Int32 SqlNonQuery(params SqlCommand[] cmds)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>CarServicing</Name>
+        <Access>Internal</Access>
+        <Location left="1259" top="359" />
+        <Size width="335" height="417" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public DateTime Arrival { get; set; }</Member>
+        <Member type="Property">public String Numberplate { get; set; }</Member>
+        <Member type="Property">public Double Price { get; set; }</Member>
+        <Member type="Property">public String IssueDescription { get; set; }</Member>
+        <Member type="Property">public String MechanicsNotes { get; set; }</Member>
+        <Member type="Constructor">public CarServicing()</Member>
+        <Member type="Method">public static Void Menu()</Member>
+        <Member type="Method">public static Void Deletor()</Member>
+        <Member type="Method">public static Void Creator()</Member>
+        <Member type="Method">public static Void CarSearcher()</Member>
+        <Member type="Method">public static Void Reader()</Member>
+        <Member type="Method">public static Void Reader(List&lt;CarServicing&gt; carServicings)</Member>
+        <Member type="Method">public Int32 Create()</Member>
+        <Member type="Method">public Int32 Update()</Member>
+        <Member type="Method">public Int32 Delete()</Member>
+        <Member type="Method">public static List&lt;CarServicing&gt; GetList(String sqlString = SELECT * FROM CarServicings)</Member>
+        <Member type="Method">public static List&lt;CarServicing&gt; GetSearch(String searchString)</Member>
+        <Member type="Method">public static String[] ExtractUnique(List&lt;CarServicing&gt; list)</Member>
+        <Member type="Method">public static Void PrintList(List&lt;IDatabaseObject&gt; list)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Realization" first="1" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1097</X>
+          <Y>780</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>258</X>
+          <Y>808</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Realization" first="3" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>784</X>
+          <Y>767</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>291</X>
+          <Y>781</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Realization" first="7" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1431</X>
+          <Y>808</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>390</X>
+          <Y>843</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Association" first="5" second="4">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>201</X>
+          <Y>310</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>201</X>
+          <Y>367</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="5" second="2">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="3" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Bidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="1" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>993</X>
+          <Y>278</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>800</X>
+          <Y>278</Y>
+        </BendPoint>
+        <Direction>Bidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="7" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1317</X>
+          <Y>237</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>812</X>
+          <Y>237</Y>
+        </BendPoint>
+        <Direction>Bidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="7" second="6">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartMultiplicity>*</StartMultiplicity>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="1" second="6">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1099</X>
+          <Y>278</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1405</X>
+          <Y>278</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartMultiplicity>*</StartMultiplicity>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="3" second="6">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>900</X>
+          <Y>257</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1366</X>
+          <Y>257</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartMultiplicity>*</StartMultiplicity>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="4" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>305</X>
+          <Y>346</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>700</X>
+          <Y>346</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="3" second="4">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>416</X>
+          <Y>507</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartMultiplicity>*</StartMultiplicity>
+        <EndMultiplicity>1..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="1" second="4">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1050</X>
+          <Y>753</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>412</X>
+          <Y>507</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartMultiplicity>*</StartMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="7" second="4">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1232</X>
+          <Y>753</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>412</X>
+          <Y>753</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartMultiplicity>*</StartMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="5" second="3">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>387</X>
+          <Y>263</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>761</X>
+          <Y>334</Y>
+        </BendPoint>
+        <Direction>Bidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="5" second="1">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>309</X>
+          <Y>324</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>971</X>
+          <Y>334</Y>
+        </BendPoint>
+        <Direction>Bidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="5" second="7">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>327</X>
+          <Y>314</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1288</X>
+          <Y>314</Y>
+        </BendPoint>
+        <Direction>Bidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>

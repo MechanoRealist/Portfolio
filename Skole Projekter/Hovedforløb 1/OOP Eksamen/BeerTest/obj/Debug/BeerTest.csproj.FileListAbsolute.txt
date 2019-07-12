@@ -1,0 +1,7 @@
+C:\Users\tec\OneDrive - TEC\H1\Grndlg. Prog\BeerTest\BeerTest\bin\Debug\BeerTest.exe.config
+C:\Users\tec\OneDrive - TEC\H1\Grndlg. Prog\BeerTest\BeerTest\bin\Debug\BeerTest.exe
+C:\Users\tec\OneDrive - TEC\H1\Grndlg. Prog\BeerTest\BeerTest\bin\Debug\BeerTest.pdb
+C:\Users\tec\OneDrive - TEC\H1\Grndlg. Prog\BeerTest\BeerTest\obj\Debug\BeerTest.csprojAssemblyReference.cache
+C:\Users\tec\OneDrive - TEC\H1\Grndlg. Prog\BeerTest\BeerTest\obj\Debug\BeerTest.csproj.CoreCompileInputs.cache
+C:\Users\tec\OneDrive - TEC\H1\Grndlg. Prog\BeerTest\BeerTest\obj\Debug\BeerTest.exe
+C:\Users\tec\OneDrive - TEC\H1\Grndlg. Prog\BeerTest\BeerTest\obj\Debug\BeerTest.pdb

@@ -1,0 +1,13 @@
+C:\Users\filur\source\repos\Bank_Project\bin\Debug\Bank_Project.exe.config
+C:\Users\filur\source\repos\Bank_Project\bin\Debug\Bank_Project.exe
+C:\Users\filur\source\repos\Bank_Project\bin\Debug\Bank_Project.pdb
+C:\Users\filur\source\repos\Bank_Project\obj\Debug\Bank_Project.csprojAssemblyReference.cache
+C:\Users\filur\source\repos\Bank_Project\obj\Debug\Bank_Project.AdminMenu.resources
+C:\Users\filur\source\repos\Bank_Project\obj\Debug\Bank_Project.KontoMenu.resources
+C:\Users\filur\source\repos\Bank_Project\obj\Debug\Bank_Project.Login.resources
+C:\Users\filur\source\repos\Bank_Project\obj\Debug\Bank_Project.Properties.Resources.resources
+C:\Users\filur\source\repos\Bank_Project\obj\Debug\Bank_Project.csproj.GenerateResource.cache
+C:\Users\filur\source\repos\Bank_Project\obj\Debug\Bank_Project.csproj.CoreCompileInputs.cache
+C:\Users\filur\source\repos\Bank_Project\obj\Debug\Bank_Project.exe
+C:\Users\filur\source\repos\Bank_Project\obj\Debug\Bank_Project.pdb
+C:\Users\filur\source\repos\Bank_Project\obj\Debug\Bank_Project.hævIndsæt.resources

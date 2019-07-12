@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Autorepairshop_Case.ConsoleHelper">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAABiAAAAAAEAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConsoleHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autorepairshop_Case.Car" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAQAABAAQAEAEIAEAAFBgAAgABAAI=</HashCode>
+      <FileName>DatabaseClasses\Car.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Autorepairshop_Case.CarServicing" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAhAEAEQAAAAAAQAAAAAQAAAEIAUAAFBAAAgAABAI=</HashCode>
+      <FileName>DatabaseClasses\CarServicing.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.642" Collapsed="true" />
+  </Class>
+  <Class Name="Autorepairshop_Case.Customer" BaseTypeListCollapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIQAAECAAAAAAAAIQAAAAAQAEAEIAEAAFBAAAAIAAAI=</HashCode>
+      <FileName>DatabaseClasses\Customer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Autorepairshop_Case.MenuBox">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAgAAABAAAAIAAAAAAAEEAAAAAAAAAAAAAAIBAAAA=</HashCode>
+      <FileName>MenuBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autorepairshop_Case.Program">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAABCAAEAAAAAAAAAAAAAAAAAAIgwQAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autorepairshop_Case.SQL">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAEAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Autorepairshop_Case.IDatabaseObject">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>DatabaseClasses\IDatabaseObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

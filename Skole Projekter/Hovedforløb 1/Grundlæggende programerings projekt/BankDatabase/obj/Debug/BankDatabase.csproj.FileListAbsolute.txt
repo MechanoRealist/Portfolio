@@ -1,0 +1,21 @@
+C:\Users\tec\OneDrive - TEC\H1\Grndlg. Prog\BankDatabase\BankDatabase\bin\Debug\BankDatabase.exe.config
+C:\Users\tec\OneDrive - TEC\H1\Grndlg. Prog\BankDatabase\BankDatabase\bin\Debug\BankDatabase.exe
+C:\Users\tec\OneDrive - TEC\H1\Grndlg. Prog\BankDatabase\BankDatabase\bin\Debug\BankDatabase.pdb
+C:\Users\tec\OneDrive - TEC\H1\Grndlg. Prog\BankDatabase\BankDatabase\obj\Debug\BankDatabase.csprojAssemblyReference.cache
+C:\Users\tec\OneDrive - TEC\H1\Grndlg. Prog\BankDatabase\BankDatabase\obj\Debug\BankDatabase.csproj.CoreCompileInputs.cache
+C:\Users\tec\OneDrive - TEC\H1\Grndlg. Prog\BankDatabase\BankDatabase\obj\Debug\BankDatabase.exe
+C:\Users\tec\OneDrive - TEC\H1\Grndlg. Prog\BankDatabase\BankDatabase\obj\Debug\BankDatabase.pdb
+C:\Users\tec\OneDrive - TEC\H1\Case2\BankDatabase\BankDatabase\bin\Debug\BankDatabase.exe.config
+C:\Users\tec\OneDrive - TEC\H1\Case2\BankDatabase\BankDatabase\bin\Debug\BankDatabase.exe
+C:\Users\tec\OneDrive - TEC\H1\Case2\BankDatabase\BankDatabase\bin\Debug\BankDatabase.pdb
+C:\Users\tec\OneDrive - TEC\H1\Case2\BankDatabase\BankDatabase\obj\Debug\BankDatabase.csprojAssemblyReference.cache
+C:\Users\tec\OneDrive - TEC\H1\Case2\BankDatabase\BankDatabase\obj\Debug\BankDatabase.csproj.CoreCompileInputs.cache
+C:\Users\tec\OneDrive - TEC\H1\Case2\BankDatabase\BankDatabase\obj\Debug\BankDatabase.exe
+C:\Users\tec\OneDrive - TEC\H1\Case2\BankDatabase\BankDatabase\obj\Debug\BankDatabase.pdb
+C:\Users\tec\OneDrive - TEC\H1\Case2\BankDatabase\obj\Debug\BankDatabase.csprojAssemblyReference.cache
+C:\Users\tec\OneDrive - TEC\H1\Case2\BankDatabase\obj\Debug\BankDatabase.csproj.CoreCompileInputs.cache
+C:\Users\tec\OneDrive - TEC\H1\Case2\BankDatabase\obj\Debug\BankDatabase.exe
+C:\Users\tec\OneDrive - TEC\H1\Case2\BankDatabase\obj\Debug\BankDatabase.pdb
+C:\Users\tec\OneDrive - TEC\H1\Case2\BankDatabase\bin\Debug\BankDatabase.exe.config
+C:\Users\tec\OneDrive - TEC\H1\Case2\BankDatabase\bin\Debug\BankDatabase.exe
+C:\Users\tec\OneDrive - TEC\H1\Case2\BankDatabase\bin\Debug\BankDatabase.pdb

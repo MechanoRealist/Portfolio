@@ -1,0 +1,5 @@
+dag 1-2 arbejde på sql
+dag 3-5 lave programmet
+weekend tilrettelser af programmet
+dag 8-10 dokumentation
+dag 11-12 fremlæggelse og farvel

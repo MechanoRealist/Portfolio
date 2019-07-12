@@ -1,0 +1,8 @@
+D:\OneDrive - TEC\GF2 Specialopgave\Programmering\CMIS Guest Register\CMIS Guest Register\bin\Release\CMIS Guest Register.exe.config
+D:\OneDrive - TEC\GF2 Specialopgave\Programmering\CMIS Guest Register\CMIS Guest Register\bin\Release\CMIS Guest Register.exe
+D:\OneDrive - TEC\GF2 Specialopgave\Programmering\CMIS Guest Register\CMIS Guest Register\bin\Release\CMIS Guest Register.pdb
+D:\OneDrive - TEC\GF2 Specialopgave\Programmering\CMIS Guest Register\CMIS Guest Register\obj\Release\CMIS Guest Register.csprojAssemblyReference.cache
+D:\OneDrive - TEC\GF2 Specialopgave\Programmering\CMIS Guest Register\CMIS Guest Register\obj\Release\CMIS Guest Register.csproj.CoreCompileInputs.cache
+D:\OneDrive - TEC\GF2 Specialopgave\Programmering\CMIS Guest Register\CMIS Guest Register\obj\Release\CMIS Guest Register.exe
+D:\OneDrive - TEC\GF2 Specialopgave\Programmering\CMIS Guest Register\CMIS Guest Register\obj\Release\CMIS Guest Register.pdb
+D:\OneDrive - TEC\GF2 Specialopgave\Programmering\CMIS Guest Register\CMIS Guest Register\bin\Release\config.ini

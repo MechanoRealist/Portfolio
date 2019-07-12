@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blue;
+}
+h1{
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+div#banner{
+    background-color: dodgerblue;
+    padding: 1.2em;
+    height: 10%;
+}
+div#banner h1{
+    color: maroon;
+    
+}
+div#menuleft{
+    float: left;
+    width: 25%;
+    height: 90%;
+    position: absolute;
+    background-color: lightskyblue;
+    margin-right: 1%;
+}
+div#content{
+    background-color: cornflowerblue;
+    float: left;
+    position: absolute;
+    width: 74%;
+    height: 90%;
+    right: 0;
+}
+div#content h1{
+    margin-left: 0.5em;
+    margin-top: 1em;
+    
+}
+div#content h1 span{
+    color: maroon;
+}
+ul{
+    list-style: none;
+    padding: 10px;
+}
+ul li a{
+    
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}

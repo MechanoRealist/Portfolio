@@ -1,0 +1,7 @@
+C:\Users\filur\Desktop\project opgave 2018-19\project opgave 2018-19\bin\Release\project opgave 2018-19.exe.config
+C:\Users\filur\Desktop\project opgave 2018-19\project opgave 2018-19\bin\Release\project opgave 2018-19.exe
+C:\Users\filur\Desktop\project opgave 2018-19\project opgave 2018-19\bin\Release\project opgave 2018-19.pdb
+C:\Users\filur\Desktop\project opgave 2018-19\project opgave 2018-19\obj\Release\project opgave 2018-19.csprojAssemblyReference.cache
+C:\Users\filur\Desktop\project opgave 2018-19\project opgave 2018-19\obj\Release\project opgave 2018-19.csproj.CoreCompileInputs.cache
+C:\Users\filur\Desktop\project opgave 2018-19\project opgave 2018-19\obj\Release\project opgave 2018-19.exe
+C:\Users\filur\Desktop\project opgave 2018-19\project opgave 2018-19\obj\Release\project opgave 2018-19.pdb
