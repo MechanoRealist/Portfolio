@@ -1,4 +1,4 @@
-Lige nu er der mest applikationer i C# og mange af dem er dedikeret til CRUD og andre backend-agtige opgaver. 
+Lige nu er der mest desktop applikationer i C# og mange af dem er dedikeret til CRUD og andre backend-agtige opgaver. 
 
 ## Indhold omfatter
 
